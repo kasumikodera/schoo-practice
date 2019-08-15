@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+html{
+  overflow-x: hidden;
+}
+
 body{
     font-size: 120%;
 	font-family: sans-serif;
@@ -11,9 +15,9 @@ body{
 
 h1{
 	margin: 1rem auto 1rem;
-  padding: 0.5rem 0 0.5rem;
-  font-size: 1.5rem;
-  color:#603813;
+  　padding: 0.5rem 0 0.5rem;
+  　font-size: 1.5rem;
+  　color:#603813;
 }
 
 h2{
@@ -30,7 +34,7 @@ table{
 
 header{
 	background: #30646B;
-
+    width: 100%;
 }
 
 .header_rogo img{
