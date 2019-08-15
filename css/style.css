@@ -1,11 +1,10 @@
-html{
-	font-size: 120%;
+@charset "utf-8";
+
+body{
+    font-size: 120%;
 	font-family: sans-serif;
 	height: 100%;
 	word-wrap: break-word;
-}
-
-body{
 	text-align: center;
 	background-color: #76c6b1;
 }
