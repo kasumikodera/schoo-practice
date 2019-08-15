@@ -1,0 +1,159 @@
+html{
+	font-size: 120%;
+	font-family: sans-serif;
+	height: 100%;
+	word-wrap: break-word;
+}
+
+body{
+	text-align: center;
+	background-color: #76c6b1;
+}
+
+h1{
+	margin: 1rem auto 1rem;
+  padding: 0.5rem 0 0.5rem;
+  font-size: 1.5rem;
+  color:#603813;
+}
+
+h2{
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #31666d;
+}
+
+table{
+	width:80%;
+	margin: auto;
+}
+/* header *******************************/
+
+header{
+	background: #30646B;
+
+}
+
+.header_rogo img{
+	width: 60%;
+}
+
+.top_image img{
+	width: 80%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+/* about *******************************/
+
+.about p{
+	width: 80%;
+	display: inline-block;
+	text-align:justify;
+}
+
+.about_text{
+	text-align: center;
+}
+
+
+/* manu *******************************/
+
+.drink_image img{
+	width: 40%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.sweets_image img{
+	width: 40%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.manu_name{
+	text-align: left;
+}
+
+.manu_price{
+	text-align: right;
+}
+
+/* access *******************************/
+.accessimage img{
+	width: 40%;
+  height: auto;
+  margin: 1rem 0;
+}
+/* contact *******************************/
+form{
+	margin: 0 auto;
+	width: 80%;
+}
+
+form div{
+    margin-top: 1em;
+}
+
+label {
+    /* すべてのラベルを同じサイズにして、きちんと揃える */
+    width: 36%;
+}
+
+label p {
+  color:
+  text-align: center;
+}
+
+
+input, textarea {
+    /* すべてのテキストフィールドのフォント設定を一致させる
+       デフォルトで、textarea は等幅フォントが設定されている */
+    font: 1rem sans-serif;
+
+    /* すべてのテキストフィールドを同じサイズにする */
+    width: 45%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* テキストフィールドのボーダーの外見を同一にする */
+    border: 1px solid #31666d;
+}
+
+textarea {
+    /* 複数行のテキストフィールドをラベルにきちんと揃える */
+    vertical-align: top;
+
+    /* テキスト入力に十分な領域を与える */
+    height: 5em;
+
+    /* ユーザが textarea を垂直方向にリサイズできるようにする
+       これが動作しないブラウザもある */
+    resize: vertical;
+}
+
+button {
+    /* このマージンは、ラベルとテキストフィールドの間のスペースと
+       おおよそ同じスペースを表す */
+    width: 20%;
+    height: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.25em 0.25em;
+    text-decoration:none;
+    text-align:center;
+    padding:0.1em  0 0.25em;
+    color: #76c6b1;
+    background-color:#31666d;
+    border-radius:5px;
+    border-style: none;
+}
+
+.contact p{
+	font-size: 0.8rem;
+}
+/* footer *******************************/
+
+p small {
+	font-size: 0.5rem;
+}
